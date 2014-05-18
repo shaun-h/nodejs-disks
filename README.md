@@ -3,7 +3,7 @@ nodejs-disks
 
 Gets current disk information from Server hosting nodejs application.
 
-This was derived from the original creator project, node-diskfree by Ismael Gorissen (pinchprojectbackend) it is available at https://bitbucket.org/pinchprojectbackend/node-diskfree/ license for this project is shown in OriginalLicense.md
+This was derived from the original creator project, node-diskfree it is available at https://bitbucket.org/pinchprojectbackend/node-diskfree/ license for this project is shown in OriginalLicense.md
 
 I have added the drive mountpoint name as well as calculating the percentage of used space and percentage of free space.
 

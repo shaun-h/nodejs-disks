@@ -1,8 +1,8 @@
 {
     "author": "Shaun Hevey",
     "name": "nodejs-disks",
-    "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree, it is available at https://bitbucket.org/pinchprojectbackend/node-diskfree/ see Readme",
-    "version": "0.1.4",
+    "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree see Readme",
+    "version": "0.1.6",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -12,5 +12,6 @@
     "dependencies": {
         "async": "~0.2.9",
         "numeral": "~1.4.8"
-    }
+    },
+    "os" : [ "darwin", "linux" ]
 }

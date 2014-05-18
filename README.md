@@ -8,8 +8,8 @@ This was derived from the original creator project, node-diskfree by Ismael Gori
 I have added the drive mountpoint name as well as calculating the percentage of used space and percentage of free space.
 
 Usage
-var df = require('nodejs-disks');
 
+var df = require('nodejs-disks');
 
 df.drives(
             function (err, drives) {

@@ -12,22 +12,38 @@ Windows support coming soon.
 
 Usage
 
-
     var df = require('nodejs-disks');
         df.drives(
             function (err, drives) {
-                if (err) {
-                    return console.log(err);
-                }
-
-                /* retrieve space information for each drives */
                 df.drivesDetail(
                     drives,
                     function (err, data) {
-                        if (err) {
-                            return console.log(err);
+                        for(var i = 0; i<data.length; i++)
+                        {
+                            /* Get drive mount point */
+                            console.log(data[i].mountpoint);
+
+                            /* Get drive total space */
+                            console.log(data[i].total);
+
+                            /* Get drive used space */
+                            console.log(data[i].used);
+
+                            /* Get drive available space */
+                            console.log(data[i].available);
+
+                            /* Get drive name */
+                            console.log(data[i].drive);
+
+                            /* Get drive used percentage */
+                            console.log(data[i].usedPer);
+
+                            /* Get drive free percentage */
+                            console.log(data[i].freePer);
                         }
-                        console.log(data);
+
+
+
                     }
                 );
             }
@@ -37,7 +53,5 @@ Usage
 LICENSE
 
 nodejs-disks - see License.md file
-
-node-diskfree - see OriginalLicense.md file
 
 

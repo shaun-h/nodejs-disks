@@ -12,11 +12,5 @@ describe('Basic Interface', function(){
 		disk.drivesDetail.should.be.Function
 		done();
 	});
-	
-	it("should fetch disks", function(done){
-		disk.drives(function(err, data){
-			console.log(data);
-			done();
-		});
-	});
+
 });

@@ -1,18 +1,34 @@
 {
-    "author": "Shaun Hevey",
-    "name": "nodejs-disks",
-    "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree see Readme",
-    "version": "0.1.9",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/shaun-h/nodejs-disks.git"
-    },
-    "keywords" : ["disk","disks","free space","volumes"],
-    "main": "./lib/disks",
-    "dependencies": {
-        "async": "~0.2.9",
-        "numeral": "~1.4.8"
-    },
-    "os" : [ "darwin", "linux" ]
+  "author": "Shaun Hevey",
+  "name": "nodejs-disks",
+  "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree see Readme",
+  "version": "0.1.9",
+  "license": "MIT",
+  "main": "./lib/disks.js",
+  "scripts": {
+    "test": "mocha test/ -R spec -s 300 -t 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaun-h/nodejs-disks.git"
+  },
+  "keywords": [
+    "disk",
+    "disks",
+    "free space",
+    "volumes"
+  ],
+  "main": "./lib/disks",
+  "dependencies": {
+    "async": "~0.2.9",
+    "numeral": "~1.4.8"
+  },
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "should": "~4.0.4"
+  }
 }

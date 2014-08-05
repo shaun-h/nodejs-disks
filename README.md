@@ -5,17 +5,15 @@ nodejs-disks
 
 Gets current disk information from Server hosting nodejs application.
 
-This was derived from the original creator project, node-diskfree. Source for node-diskfree is available at https://bitbucket.org/pinchprojectbackend/node-diskfree/ license for this project is shown in OriginalLicense.md
-
 I have added the drive mount point name as well as calculating the percentage of used space and percentage of free space. Tested on OSX and ubuntu.
 Windows support coming soon.
 
 Usage
 
-    var df = require('nodejs-disks');
-        df.drives(
+    var njds = require('nodejs-disks');
+        njds.drives(
             function (err, drives) {
-                df.drivesDetail(
+                njds.drivesDetail(
                     drives,
                     function (err, data) {
                         for(var i = 0; i<data.length; i++)
@@ -54,4 +52,6 @@ LICENSE
 
 nodejs-disks - see License.md file
 
+
+This was derived from the original creator project, node-diskfree. Source for node-diskfree is available at https://bitbucket.org/pinchprojectbackend/node-diskfree/ license for this project is shown in OriginalLicense.md
 

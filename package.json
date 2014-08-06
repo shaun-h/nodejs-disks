@@ -16,7 +16,8 @@
     "disk",
     "disks",
     "free space",
-    "volumes"
+    "volumes",
+    "harddisk"
   ],
   "main": "./lib/disks",
   "dependencies": {

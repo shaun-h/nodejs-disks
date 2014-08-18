@@ -2,7 +2,7 @@
   "author": "Shaun Hevey",
   "name": "nodejs-disks",
   "description": "Nodejs module to gets current disk information from Server hosting nodejs application tested on OSX and ubuntu adapted from node-diskfree see Readme",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "main": "./lib/disks.js",
   "scripts": {

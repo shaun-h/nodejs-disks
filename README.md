@@ -1,3 +1,5 @@
+## This repository is no longer maintained please use at your own risk.
+
 nodejs-disks
 ============
 

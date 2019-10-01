@@ -19,14 +19,14 @@
     "volumes",
     "harddisk"
   ],
-  "main": "./lib/disks",
   "dependencies": {
     "async": "~0.2.9",
     "numeral": "~1.4.8"
   },
   "os": [
     "darwin",
-    "linux"
+    "linux",
+    "win32"
   ],
   "devDependencies": {
     "mocha": "~1.20.1",

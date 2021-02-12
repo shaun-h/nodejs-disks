@@ -1,0 +1,23 @@
+language: node_js
+
+branches:
+  only:
+    - master
+    - /^greenkeeper-.*$/
+    - /^greenkeeper/.*$/
+
+node_js:
+  - 12
+  - 13
+  - 14
+  - 15
+  - lts/*
+  - node
+
+os:
+  - windows
+  - linux
+  - osx
+
+env:
+  - NODE_ENV=testing

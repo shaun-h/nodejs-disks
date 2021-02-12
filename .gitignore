@@ -1,3 +1,6 @@
+.idea
+*.bak
+
 # Logs
 logs
 *.log

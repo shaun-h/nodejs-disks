@@ -21,15 +21,16 @@
   ],
   "main": "./lib/disks",
   "dependencies": {
-    "async": "~0.2.9",
-    "numeral": "~1.4.8"
+    "async": "~2.1.4",
+    "numeral": "~2.0.4"
   },
   "os": [
     "darwin",
-    "linux"
+    "linux",
+    "win32"
   ],
   "devDependencies": {
-    "mocha": "~1.20.1",
-    "should": "~4.0.4"
+    "mocha": "~3.2.0",
+    "should": "~11.1.2"
   }
 }
